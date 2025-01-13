@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Todo.Data;
+using Todo.Dtos;
 using Todo.Models;
 
 namespace Todo.Controllers
