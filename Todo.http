@@ -1,6 +1,32 @@
 @Todo_HostAddress = http://localhost:5137
 
-GET {{Todo_HostAddress}}/weatherforecast/
+GET {{Todo_HostAddress}}/api/TodoItems
 Accept: application/json
 
 ###
+
+POST {{Todo_HostAddress}}/api/TodoItems
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "string",
+  "isComplete": true
+}
+
+###
+
+PUT {{Todo_HostAddress}}/api/TodoItems/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "testing",
+  "isComplete": true
+}
+
+###
+
+DELETE {{Todo_HostAddress}}/api/TodoItems/1
+Accept: application/json
