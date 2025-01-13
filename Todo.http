@@ -13,3 +13,20 @@ Content-Type: application/json
   "name": "string",
   "isComplete": true
 }
+
+###
+
+PUT {{Todo_HostAddress}}/api/TodoItems/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "testing",
+  "isComplete": true
+}
+
+###
+
+DELETE {{Todo_HostAddress}}/api/TodoItems/1
+Accept: application/json
