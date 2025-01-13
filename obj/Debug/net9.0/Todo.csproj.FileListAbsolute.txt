@@ -9,7 +9,6 @@
 /home/jhivens/project/todo/Todo/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
 /home/jhivens/project/todo/Todo/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
 /home/jhivens/project/todo/Todo/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/home/jhivens/project/todo/Todo/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
 /home/jhivens/project/todo/Todo/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /home/jhivens/project/todo/Todo/obj/Debug/net9.0/Todo.csproj.AssemblyReference.cache
 /home/jhivens/project/todo/Todo/obj/Debug/net9.0/Todo.GeneratedMSBuildEditorConfig.editorconfig
